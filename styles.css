@@ -2,9 +2,8 @@
 /** { border: 1px solid red; }*/
 
 :root {
-    --bg-color: #223030;
+    --bg-color: #5E2750;
     --text-color: #dddddd;
-    --bg-image: url("assets/bg.jpg");
     --SHORTCUT_TIMEOUT: 1.5s;
 }
 body {

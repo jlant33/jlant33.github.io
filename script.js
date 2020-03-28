@@ -1,4 +1,4 @@
-const NAME = "John";
+const NAME = "Jason";
 const WELCOME_MESSAGE_TEMPLATE = ["night", "morning", "afternoon", "evening"];
 
 // All shortcuts are in a `SHORTCUT_STARTER+shortcutKey` format. 
@@ -14,27 +14,31 @@ const SHORTCUT_TIMEOUT = 1500;
 // but intended to be used with just regular latin letters.
 const MASTER_MAP = [
     {
-        "groupName": "Studies",
+        "groupName": "Server",
         "items":[
-            {"name": "Item A", "shortcutKey": "q", "url": "https://google.com/?q=q"},
-            {"name": "Item B", "shortcutKey": "w", "url": "https://google.com/?q=w"},
-            {"name": "Item C", "shortcutKey": "e", "url": "https://google.com/?q=e"}
-        ]
-    },
-    {
-        "groupName": "Work",
-        "items":[
-            {"name": "Item D", "shortcutKey": "a", "url": "https://google.com/?q=a"},
-            {"name": "Item E", "shortcutKey": "s", "url": "https://google.com/?q=s"},
-            {"name": "Item F", "shortcutKey": "d", "url": "https://google.com/?q=d"}
+            {"name": "Revan", "url": "http://192.168.1.242"},
+            {"name": "Sidious", "url": "http://192.168.1.241"},
+            {"name": "Dooku", "url": "http://192.168.1.242"},
+            {"name": "Plex Media Server", "url": "http://192.168.1.10:32400"},
+            {"name": "Tautulli", "url": "http://192.168.1.244:8181"},
         ]
     },
     {
         "groupName": "Personal",
         "items":[
-            {"name": "Item I", "shortcutKey": "z", "url": "https://google.com/?q=z"},
-            {"name": "Item J", "shortcutKey": "x", "url": "https://google.com/?q=x"},
-            {"name": "Item K", "shortcutKey": "c", "url": "https://google.com/?q=c"}
+            {"name": "Reddit", "shortcutKey": "a", "url": "https://google.com/?q=a"},
+            {"name": "Test", "shortcutKey": "s", "url": "https://google.com/?q=s"},
+            {"name": "Test", "shortcutKey": "d", "url": "https://google.com/?q=d"},
+        ]
+    },
+    {
+        "groupName": "Work",
+        "items":[
+            {"name": "BigTime", "url": "https://google.com/?q=z"},
+            {"name": "Ajera", "url": "https://google.com/?q=x"},
+            {"name": "Autodesk", "url": "https://google.com/?q=c"},
+            {"name": "Adobe", "url": "https://google.com/?q=c"},
+            {"name": "Bluebeam", "url": "https://google.com/?q=c"},
         ]
     }
 ]
